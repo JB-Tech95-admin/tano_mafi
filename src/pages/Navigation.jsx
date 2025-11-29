@@ -26,7 +26,7 @@ const Navigation = ({
           <div className="flex items-center space-x-3 cursor-pointer group"
             onClick={() => { setCurrentView("home"); scrollToSection("accueil"); }}>
             <div className="p-2 rounded-xl">
-              <img src="/public/image/logos.png" alt="logo" className="w-15 h-15" />
+              <img src="/logos.png" alt="logo" className="w-15 h-15" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
               TANOMAFI
